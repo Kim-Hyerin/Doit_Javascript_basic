@@ -9,6 +9,15 @@
 </head>
 <body>	
 	<button class="btn" onclick="calc()">나이 계산하기</button>
-	<div id="result" class="show">(결과 값 표시)</div> 
+	<script>
+		function calc() {
+			var age, currentYear, birthYear;
+			currentYear = 2021;
+			birthYear = prompt("태어난 연도를 입력하세요", "YYYY");
+			age = currentYear - birthYear + 1;
+			// alert("당신의 나이는 " + age + "세입니다."); // ES5 연결 연산자
+			alert(`당신의 나이는 ${age}세 입니다.`); // ES6 템플릿 문자열
+		}
+	</script>
 </body>
 </html>
