@@ -14,5 +14,15 @@
 </head>
 <body>
 	<h2>3의 배수 찾기</h2>
+	<script>
+		var count=0;
+		for (var i=0;i<=100;i++){
+			if (i % 3 == 0 && i !=0){
+				document.write(i + ", ");
+				count++;
+			}
+		}
+		document.write("<br><br>3의 배수의 갯수 : " + count);
+	</script>
 </body>
 </html>
