@@ -9,5 +9,18 @@
 </head>
 <body>
 	<div id="result"></div>
+	<script>
+		var userNumber = prompt("숫자를 입력하세요.");
+		var displayArea = document.querySelector("#result");
+		if (userNumber != null) { // userNumber가 null인 경우보다 null이 아닐 경우가 더 많기 때문에 != 조건 사용
+			if (userNumber % 3 === 0){ // 값의 자료형까지 확인
+				displayArea.innerHTML = userNumber + "은 3의 배수입니다.";
+			} else {
+				displayArea.innerHTML = userNumber + "은 3의 배수가 아닙니다.";
+			}
+		} else {
+			alert("입력이 취소되었습니다.");
+		}
+	</script>
 </body>
 </html>
