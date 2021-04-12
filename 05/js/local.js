@@ -3,5 +3,5 @@ test();
 document.write("myVar is " + myVar);
 
 function test() { 			
-	var myVar = 50;
+	var myVar = 50; // 지역 변수
 }
