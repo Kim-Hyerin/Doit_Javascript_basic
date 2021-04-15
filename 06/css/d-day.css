@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua');
-
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua'); /* Black Han Sans */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap'); /* Nanum Pen Script */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); /* Nanum Gothic */
 * {
 	box-sizing: border-box;
 }
@@ -34,14 +35,14 @@
 	margin:60px auto 0 auto;
 	padding-left:15px;
 	height:40px;	
-	background:#747474;
+	background:#ebbbbc;
 	color:#fff;
 	font-size:1.2em;
 	line-height:40px;
 }
 .day2 {
   width:420px;
-  margin:20px auto 20px auto;
+  margin:0px auto 0px auto;
 }
 .day2 ul {
   list-style: none;
@@ -54,15 +55,18 @@
 .item-title {
   float:left;
   width:160px;        
-  font-weight:bold;
-  font-size:1.5em;
-  line-height:60px;
+  font-weight:600;
+  font-size:1.3em;
+  line-height:50px;
+  font-family: 'Nanum Gothic' ,'Nanum Pen Script';
 }
 .item-date {
   float:left;
   margin-left:60px;
-  font-size:1.2em;
-  color:#222;
+  font-size:1.1em;
+  color:rgb(46, 46, 46);
   text-align:right;
-  line-height:60px;
+  line-height:50px;
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
 }
