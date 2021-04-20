@@ -6,9 +6,9 @@ document.write(`반지름이 ${r}cm일 때<br>원의 둘레 : 약 ${circle1.circ
 function Circle(radius){
     this.radius = radius;
     this.circumference = function() {
-        return Math.floor(this.radius * 2 * Math.PI);
+        return Math.floor(this.radius * 2 * Math.PI); // Math.floor() 소수점 이하 버림
     }
     this.area = function() {
-        return Math.floor(Math.pow(this.radius, 2) * Math.PI);
+        return Math.floor(Math.pow(this.radius, 2) * Math.PI); // Math.pow(a, b) a의 b제곱
     }
 }
